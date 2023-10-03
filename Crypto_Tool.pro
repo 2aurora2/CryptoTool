@@ -19,16 +19,19 @@ SOURCES += \
     cryptotool.cpp \
     main.cpp \
     mainwindow.cpp \
+    timerecorditem.cpp \
     timertool.cpp
 
 HEADERS += \
     cryptotool.h \
     mainwindow.h \
+    timerecorditem.h \
     timertool.h
 
 FORMS += \
     cryptotool.ui \
     mainwindow.ui \
+    timerecorditem.ui \
     timertool.ui
 
 # Default rules for deployment.
