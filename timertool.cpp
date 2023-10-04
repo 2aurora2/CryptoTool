@@ -23,6 +23,15 @@ TimerTool::TimerTool(QWidget *parent) :
 
     ui->IDLABEL->setAlignment(Qt::AlignCenter);
     ui->TIMELABEL->setAlignment(Qt::AlignCenter);
+
+    ui->RESETBTN->setIcon(QIcon(":/icon/reset.ico"));
+    ui->RESETBTN->setIconSize(QSize(80,80));
+
+    ui->RECORDBTN->setIcon(QIcon(":/icon/record.ico"));
+    ui->RECORDBTN->setIconSize(QSize(80,80));
+
+    ui->STARTSTOPBTN->setIcon(QIcon(":/icon/start.ico"));
+    ui->STARTSTOPBTN->setIconSize(QSize(80,80));
 }
 
 TimerTool::~TimerTool()
@@ -41,11 +50,15 @@ void TimerTool::on_STARTSTOPBTN_clicked()
     if(isOnTime){
         timer->stop();
         isOnTime=false;
+        ui->STARTSTOPBTN->setIcon(QIcon(":/icon/start.ico"));
+        ui->STARTSTOPBTN->setIconSize(QSize(80,80));
     }
     else{
         timer->setInterval(1);
         timer->start();
         isOnTime=true;
+        ui->STARTSTOPBTN->setIcon(QIcon(":/icon/stop.ico"));
+        ui->STARTSTOPBTN->setIconSize(QSize(80,80));
     }
 }
 

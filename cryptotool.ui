@@ -104,7 +104,7 @@
   <widget class="QRadioButton" name="BASEDECODE">
    <property name="geometry">
     <rect>
-     <x>120</x>
+     <x>170</x>
      <y>230</y>
      <width>111</width>
      <height>31</height>
@@ -169,7 +169,7 @@
   <widget class="QRadioButton" name="MD5ENCODE">
    <property name="geometry">
     <rect>
-     <x>240</x>
+     <x>340</x>
      <y>230</y>
      <width>91</width>
      <height>31</height>
@@ -213,7 +213,7 @@
   <widget class="QRadioButton" name="KAISAENCODE">
    <property name="geometry">
     <rect>
-     <x>340</x>
+     <x>490</x>
      <y>230</y>
      <width>91</width>
      <height>31</height>
@@ -235,7 +235,7 @@
   <widget class="QRadioButton" name="KAISADECODE">
    <property name="geometry">
     <rect>
-     <x>440</x>
+     <x>640</x>
      <y>230</y>
      <width>91</width>
      <height>31</height>
@@ -315,8 +315,8 @@ background-color:rgb(240, 240, 240);</string>
   <widget class="QRadioButton" name="BACONENCODE">
    <property name="geometry">
     <rect>
-     <x>540</x>
-     <y>230</y>
+     <x>340</x>
+     <y>260</y>
      <width>91</width>
      <height>31</height>
     </rect>
@@ -337,8 +337,8 @@ background-color:rgb(240, 240, 240);</string>
   <widget class="QRadioButton" name="BACONDECODE">
    <property name="geometry">
     <rect>
-     <x>640</x>
-     <y>230</y>
+     <x>490</x>
+     <y>260</y>
      <width>91</width>
      <height>31</height>
     </rect>
@@ -381,7 +381,7 @@ background-color:rgb(240, 240, 240);</string>
   <widget class="QRadioButton" name="URLDECODE">
    <property name="geometry">
     <rect>
-     <x>120</x>
+     <x>170</x>
      <y>260</y>
      <width>111</width>
      <height>31</height>

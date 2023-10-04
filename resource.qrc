@@ -1,5 +1,9 @@
 <RCC>
     <qresource prefix="/icon">
         <file>crypto.ico</file>
+        <file>record.ico</file>
+        <file>reset.ico</file>
+        <file>start.ico</file>
+        <file>stop.ico</file>
     </qresource>
 </RCC>

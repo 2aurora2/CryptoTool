@@ -31,9 +31,9 @@
   <widget class="QWidget" name="gridLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>170</x>
+     <x>150</x>
      <y>180</y>
-     <width>391</width>
+     <width>441</width>
      <height>111</height>
     </rect>
    </property>
@@ -66,7 +66,7 @@
        </font>
       </property>
       <property name="text">
-       <string>重置</string>
+       <string/>
       </property>
      </widget>
     </item>
@@ -98,7 +98,7 @@
        </font>
       </property>
       <property name="text">
-       <string>记录</string>
+       <string/>
       </property>
      </widget>
     </item>
@@ -130,7 +130,7 @@
        </font>
       </property>
       <property name="text">
-       <string>开始/停止</string>
+       <string/>
       </property>
      </widget>
     </item>
@@ -170,8 +170,8 @@
    </property>
    <property name="font">
     <font>
-     <family>华文细黑</family>
-     <pointsize>12</pointsize>
+     <family>华文新魏</family>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="layoutDirection">
@@ -195,8 +195,8 @@
    </property>
    <property name="font">
     <font>
-     <family>华文细黑</family>
-     <pointsize>12</pointsize>
+     <family>华文新魏</family>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
