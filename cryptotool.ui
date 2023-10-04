@@ -84,7 +84,7 @@
     <rect>
      <x>0</x>
      <y>230</y>
-     <width>111</width>
+     <width>141</width>
      <height>31</height>
     </rect>
    </property>
@@ -106,7 +106,7 @@
     <rect>
      <x>170</x>
      <y>230</y>
-     <width>111</width>
+     <width>151</width>
      <height>31</height>
     </rect>
    </property>
@@ -171,7 +171,7 @@
     <rect>
      <x>340</x>
      <y>230</y>
-     <width>91</width>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
@@ -191,7 +191,7 @@
   <widget class="QPushButton" name="COPYBTN">
    <property name="geometry">
     <rect>
-     <x>120</x>
+     <x>130</x>
      <y>300</y>
      <width>111</width>
      <height>31</height>
@@ -215,7 +215,7 @@
     <rect>
      <x>490</x>
      <y>230</y>
-     <width>91</width>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
@@ -237,7 +237,7 @@
     <rect>
      <x>640</x>
      <y>230</y>
-     <width>91</width>
+     <width>121</width>
      <height>31</height>
     </rect>
    </property>
@@ -276,7 +276,7 @@
   <widget class="QSpinBox" name="MOVESIZE">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>390</x>
      <y>300</y>
      <width>51</width>
      <height>31</height>
@@ -292,7 +292,7 @@
   <widget class="QLabel" name="TIPS">
    <property name="geometry">
     <rect>
-     <x>430</x>
+     <x>460</x>
      <y>300</y>
      <width>241</width>
      <height>31</height>
@@ -317,7 +317,7 @@ background-color:rgb(240, 240, 240);</string>
     <rect>
      <x>340</x>
      <y>260</y>
-     <width>91</width>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
@@ -339,7 +339,7 @@ background-color:rgb(240, 240, 240);</string>
     <rect>
      <x>490</x>
      <y>260</y>
-     <width>91</width>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
@@ -361,7 +361,7 @@ background-color:rgb(240, 240, 240);</string>
     <rect>
      <x>0</x>
      <y>260</y>
-     <width>111</width>
+     <width>141</width>
      <height>31</height>
     </rect>
    </property>
@@ -383,7 +383,7 @@ background-color:rgb(240, 240, 240);</string>
     <rect>
      <x>170</x>
      <y>260</y>
-     <width>111</width>
+     <width>151</width>
      <height>31</height>
     </rect>
    </property>
@@ -403,7 +403,7 @@ background-color:rgb(240, 240, 240);</string>
   <widget class="QPushButton" name="CLEARBTN">
    <property name="geometry">
     <rect>
-     <x>240</x>
+     <x>260</x>
      <y>300</y>
      <width>111</width>
      <height>31</height>

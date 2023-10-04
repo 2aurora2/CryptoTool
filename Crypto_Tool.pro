@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -17,6 +17,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     cryptotool.cpp \
+    eventitem.cpp \
+    historytoday.cpp \
     main.cpp \
     mainwindow.cpp \
     timerecorditem.cpp \
@@ -24,12 +26,16 @@ SOURCES += \
 
 HEADERS += \
     cryptotool.h \
+    eventitem.h \
+    historytoday.h \
     mainwindow.h \
     timerecorditem.h \
     timertool.h
 
 FORMS += \
     cryptotool.ui \
+    eventitem.ui \
+    historytoday.ui \
     mainwindow.ui \
     timerecorditem.ui \
     timertool.ui

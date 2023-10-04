@@ -72,6 +72,9 @@ void TimerTool::on_RESETBTN_clicked()
     ui->TIMER->setSegmentStyle(QLCDNumber::Flat);
     ui->TIMER->display(timeRecord->toString("hh:mm:ss:zzz"));
 
+    ui->STARTSTOPBTN->setIcon(QIcon(":/icon/start.ico"));
+    ui->STARTSTOPBTN->setIconSize(QSize(80,80));
+
     ui->RECORDLIST->clear();
 }
 
@@ -81,6 +84,5 @@ void TimerTool::on_RECORDBTN_clicked()
     QListWidgetItem* item =new QListWidgetItem(QString::number(cnt));
     item->setSizeHint(QSize(300,40));
     ui->RECORDLIST->addItem(item);
-    qDebug()<<cnt<<endl;
     ui->RECORDLIST->setItemWidget(item,new TimeRecordItem(timeRecord->toString("hh:mm:ss:zzz"),this));
 }

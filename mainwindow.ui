@@ -30,10 +30,11 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="CryptoTool" name="crypto_page"/>
     <widget class="TimerTool" name="timer_page"/>
+    <widget class="HistoryToday" name="history_page"/>
    </widget>
    <widget class="QPushButton" name="TOCRYPTO">
     <property name="geometry">
@@ -93,6 +94,29 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
+   <widget class="QPushButton" name="TOHISTORY">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文细黑</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>历史上的今天</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -117,6 +141,12 @@
    <class>TimerTool</class>
    <extends>QWidget</extends>
    <header location="global">timertool.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HistoryToday</class>
+   <extends>QWidget</extends>
+   <header location="global">historytoday.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

@@ -18,6 +18,7 @@ public:
 private slots:
     void on_TOCRYPTO_clicked();
     void on_TOCOUNTTIME_clicked();
+    void on_TOHISTORY_clicked();
 
 private:
     Ui::MainWindow *ui;

@@ -8,6 +8,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     ui->TOCRYPTO->setStyleSheet("background-color:white;color:black;");
     ui->TOCOUNTTIME->setStyleSheet("background-color:#DCDCDC;color:#A9A9A9;");
+    ui->TOHISTORY->setStyleSheet("background-color:#DCDCDC;color:#A9A9A9;");
+    ui->stackedWidget->setCurrentIndex(0);
     this->setWindowTitle("Crypto Tool");
     this->setWindowIcon(QIcon(":/icon/crypto.ico"));
     this->setFixedSize(790,630);
@@ -23,6 +25,7 @@ void MainWindow::on_TOCRYPTO_clicked()
     ui->stackedWidget->setCurrentIndex(0);
     ui->TOCRYPTO->setStyleSheet("background-color:white;color:black;");
     ui->TOCOUNTTIME->setStyleSheet("background-color:#DCDCDC;color:#A9A9A9;");
+    ui->TOHISTORY->setStyleSheet("background-color:#DCDCDC;color:#A9A9A9;");
 }
 
 void MainWindow::on_TOCOUNTTIME_clicked()
@@ -30,4 +33,13 @@ void MainWindow::on_TOCOUNTTIME_clicked()
     ui->stackedWidget->setCurrentIndex(1);
     ui->TOCOUNTTIME->setStyleSheet("background-color:white;color:black;");
     ui->TOCRYPTO->setStyleSheet("background-color:#DCDCDC;color:#A9A9A9;");
+    ui->TOHISTORY->setStyleSheet("background-color:#DCDCDC;color:#A9A9A9;");
+}
+
+void MainWindow::on_TOHISTORY_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(2);
+    ui->TOCOUNTTIME->setStyleSheet("background-color:#DCDCDC;color:#A9A9A9;");
+    ui->TOCRYPTO->setStyleSheet("background-color:#DCDCDC;color:#A9A9A9;");
+    ui->TOHISTORY->setStyleSheet("background-color:white;color:black;");
 }
